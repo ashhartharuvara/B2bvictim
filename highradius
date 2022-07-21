@@ -7,3 +7,12 @@ asdasdasd
 asdas
 asdasdas
 asdas@highradius.com
+
+package highradius;
+2	import java.sql.*;
+3	import java.sql.SQLException;
+4	public class JDBCConnection 
+…	
+9			String url = "jdbc:mysql://localhost:3306/highradius";
+10			String username = "hack";
+11			String password = "highradius";
